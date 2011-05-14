@@ -1,0 +1,215 @@
+provider: twitter
+uid: "14968571"
+credentials: 
+  token: 14968571-U22R7xPvr6m0v8WXw21jb7iYCoAZkHyk6Omlsr8Nt
+  secret: jl0IzbGsuXYAxZF1FXqmr1s4LcpA4sEXrWjzbAU
+extra: 
+  access_token: !ruby/object:OAuth::AccessToken 
+    consumer: !ruby/object:OAuth::Consumer 
+      http: !ruby/object:Net::HTTP 
+        address: api.twitter.com
+        ca_file: 
+        ca_path: 
+        cert: 
+        cert_store: 
+        ciphers: 
+        close_on_empty_response: false
+        compression: 
+        curr_http_version: "1.1"
+        debug_output: 
+        enable_post_connection_check: true
+        key: 
+        newimpl: true
+        no_keepalive_server: false
+        open_timeout: 30
+        port: 443
+        read_timeout: 30
+        socket: 
+        ssl_context: !ruby/object:OpenSSL::SSL::SSLContext 
+          ca_file: 
+          ca_path: 
+          cert: 
+          cert_store: 
+          client_ca: 
+          client_cert_cb: 
+          extra_chain_cert: 
+          key: 
+          options: 4095
+          servername_cb: 
+          session_get_cb: 
+          session_id_context: 
+          session_new_cb: 
+          session_remove_cb: 
+          timeout: 
+          tmp_dh_callback: 
+          verify_callback: 
+          verify_depth: 
+          verify_mode: 0
+        ssl_timeout: 
+        ssl_version: 
+        sspi_enabled: false
+        started: false
+        use_ssl: true
+        verify_callback: 
+        verify_depth: 
+        verify_mode: 0
+      http_method: :post
+      key: KIdIkhcUKx9rIM2lqvXJA
+      options: 
+        :signature_method: HMAC-SHA1
+        :request_token_path: /oauth/request_token
+        :authorize_path: /oauth/authenticate
+        :access_token_path: /oauth/access_token
+        :proxy: 
+        :scheme: :header
+        :http_method: :post
+        :oauth_version: "1.0"
+        :site: https://api.twitter.com
+      secret: YQTGQCEAOPr7knkGe1mLLg1Yeifp2XWVUaBN8JbDpM
+      uri: !ruby/object:URI::HTTPS 
+        fragment: 
+        host: api.twitter.com
+        opaque: 
+        parser: 
+        password: 
+        path: ""
+        port: 443
+        query: 
+        registry: 
+        scheme: https
+        user: 
+    params: 
+      :oauth_token: 14968571-U22R7xPvr6m0v8WXw21jb7iYCoAZkHyk6Omlsr8Nt
+      oauth_token: 14968571-U22R7xPvr6m0v8WXw21jb7iYCoAZkHyk6Omlsr8Nt
+      :oauth_token_secret: jl0IzbGsuXYAxZF1FXqmr1s4LcpA4sEXrWjzbAU
+      oauth_token_secret: jl0IzbGsuXYAxZF1FXqmr1s4LcpA4sEXrWjzbAU
+      :user_id: "14968571"
+      user_id: "14968571"
+      :screen_name: jsullivandigs
+      screen_name: jsullivandigs
+    response: !ruby/object:Net::HTTPOK 
+      body: "{\"notifications\":null,\"created_at\":\"Sun Jun 01 03:01:57 +0000 2008\",\"profile_sidebar_border_color\":\"C0DEED\",\"contributors_enabled\":false,\"statuses_count\":493,\"following\":null,\"description\":\"\",\"status\":{\"retweet_count\":0,\"in_reply_to_status_id\":null,\"text\":\"If you call yourself a UX expert, yet don't mark up your own work in HTML\\/CSS, then take the time to learn. Your career is in jeopardy.\",\"created_at\":\"Sat May 14 19:00:12 +0000 2011\",\"in_reply_to_screen_name\":null,\"in_reply_to_status_id_str\":null,\"contributors\":null,\"retweeted\":false,\"in_reply_to_user_id_str\":null,\"source\":\"\\u003Ca href=\\\"http:\\/\\/itunes.apple.com\\/us\\/app\\/twitter\\/id409789998?mt=12\\\" rel=\\\"nofollow\\\"\\u003ETwitter for Mac\\u003C\\/a\\u003E\",\"id_str\":\"69477126411264000\",\"place\":null,\"coordinates\":null,\"geo\":null,\"in_reply_to_user_id\":null,\"truncated\":false,\"id\":69477126411264000,\"favorited\":false},\"default_profile\":true,\"profile_use_background_image\":true,\"profile_image_url\":\"http:\\/\\/a0.twimg.com\\/profile_images\\/1275528950\\/eightbit-a59d70f8-99f9-4a7a-a71f-00ff2c31b2f5_normal.png\",\"default_profile_image\":false,\"verified\":false,\"profile_background_color\":\"C0DEED\",\"profile_background_image_url\":\"http:\\/\\/a3.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"favourites_count\":0,\"friends_count\":125,\"screen_name\":\"jsullivandigs\",\"id_str\":\"14968571\",\"follow_request_sent\":null,\"profile_text_color\":\"333333\",\"show_all_inline_media\":false,\"lang\":\"en\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"followers_count\":89,\"protected\":false,\"location\":\"Bend, OR\",\"geo_enabled\":false,\"profile_background_tile\":false,\"name\":\"Josh Sullivan\",\"is_translator\":false,\"url\":\"http:\\/\\/dipperstove.com\",\"id\":14968571,\"listed_count\":4,\"time_zone\":\"Pacific Time (US & Canada)\",\"utc_offset\":-28800,\"profile_link_color\":\"0084B4\"}"
+      body_exist: true
+      code: "200"
+      header: 
+        date: 
+        - Sat, 14 May 2011 21:14:48 GMT
+        server: 
+        - hi
+        status: 
+        - 200 OK
+        x-transaction: 
+        - 1305407688-32797-61058
+        x-ratelimit-limit: 
+        - "350"
+        etag: 
+        - "\"60c13268d2b91a27b6ea964d301c83d0\""
+        x-frame-options: 
+        - SAMEORIGIN
+        last-modified: 
+        - Sat, 14 May 2011 21:14:48 GMT
+        x-ratelimit-remaining: 
+        - "347"
+        x-runtime: 
+        - "0.02270"
+        x-transaction-mask: 
+        - a6183ffa5f8ca943ff1b53b5644ef114be3e990c
+        content-type: 
+        - application/json; charset=utf-8
+        content-length: 
+        - "1777"
+        pragma: 
+        - no-cache
+        x-ratelimit-class: 
+        - api_identified
+        x-revision: 
+        - DEV
+        expires: 
+        - Tue, 31 Mar 1981 05:00:00 GMT
+        cache-control: 
+        - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+        x-mid: 
+        - fe95a44e1bbcca68b4a5cf0df0333a3e03ccdba2
+        x-ratelimit-reset: 
+        - "1305410685"
+        set-cookie: 
+        - k=66.220.97.13.1305407688097836; path=/; expires=Sat, 21-May-11 21:14:48 GMT; domain=.twitter.com
+        - guest_id=130540768810060809; path=/; expires=Mon, 13 Jun 2011 21:14:48 GMT
+        - lang=en; path=/
+        - _twitter_sess=BAh7CToPY3JlYXRlZF9hdGwrCKyNXPAvAToMY3NyZl9pZCIlYjIyMTlhYmY4%250ANzY3NzMxMGI4ZjM3MzJjYTA2OGMyYTQ6B2lkIiU3NDQzMTQyMDY1Njg1NjQ1%250ANmIzMzUwNjc0YjYzZWIyNyIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6%250ARmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%253D%253D--778e4bc8f252bf0e0edc66529aa2d9050abb8c50; domain=.twitter.com; path=/; HttpOnly
+        vary: 
+        - Accept-Encoding
+        connection: 
+        - close
+      http_version: "1.1"
+      message: OK
+      read: true
+      socket: 
+    secret: jl0IzbGsuXYAxZF1FXqmr1s4LcpA4sEXrWjzbAU
+    token: 14968571-U22R7xPvr6m0v8WXw21jb7iYCoAZkHyk6Omlsr8Nt
+  user_hash: 
+    notifications: 
+    created_at: Sun Jun 01 03:01:57 +0000 2008
+    profile_sidebar_border_color: C0DEED
+    contributors_enabled: false
+    statuses_count: 493
+    following: 
+    description: ""
+    status: 
+      retweet_count: 0
+      in_reply_to_status_id: 
+      text: If you call yourself a UX expert, yet don't mark up your own work in HTML/CSS, then take the time to learn. Your career is in jeopardy.
+      created_at: Sat May 14 19:00:12 +0000 2011
+      in_reply_to_screen_name: 
+      in_reply_to_status_id_str: 
+      contributors: 
+      retweeted: false
+      in_reply_to_user_id_str: 
+      source: <a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter for Mac</a>
+      id_str: "69477126411264000"
+      place: 
+      coordinates: 
+      geo: 
+      in_reply_to_user_id: 
+      truncated: false
+      id: 69477126411264000
+      favorited: false
+    default_profile: true
+    profile_use_background_image: true
+    profile_image_url: http://a0.twimg.com/profile_images/1275528950/eightbit-a59d70f8-99f9-4a7a-a71f-00ff2c31b2f5_normal.png
+    default_profile_image: false
+    verified: false
+    profile_background_color: C0DEED
+    profile_background_image_url: http://a3.twimg.com/images/themes/theme1/bg.png
+    favourites_count: 0
+    friends_count: 125
+    screen_name: jsullivandigs
+    id_str: "14968571"
+    follow_request_sent: 
+    profile_text_color: "333333"
+    show_all_inline_media: false
+    lang: en
+    profile_sidebar_fill_color: DDEEF6
+    followers_count: 89
+    protected: false
+    location: Bend, OR
+    geo_enabled: false
+    profile_background_tile: false
+    name: Josh Sullivan
+    is_translator: false
+    url: http://dipperstove.com
+    id: 14968571
+    listed_count: 4
+    time_zone: Pacific Time (US & Canada)
+    utc_offset: -28800
+    profile_link_color: 0084B4
+user_info: 
+  nickname: jsullivandigs
+  name: Josh Sullivan
+  location: Bend, OR
+  image: http://a0.twimg.com/profile_images/1275528950/eightbit-a59d70f8-99f9-4a7a-a71f-00ff2c31b2f5_normal.png
+  description: ""
+  urls: 
+    Website: http://dipperstove.com
+    Twitter: http://twitter.com/jsullivandigs
+
