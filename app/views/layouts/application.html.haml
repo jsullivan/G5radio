@@ -1,0 +1,16 @@
+!!!5
+%html
+  %head
+    %title G5radio
+    = stylesheet_link_tag 'default'
+    = csrf_meta_tag
+  %body
+    - if current_user
+      Welcome,
+      = current_user.name
+      = link_to 'Log out', logout_path
+    - else
+      = link_to 'Sign in with Twitter', '/auth/twitter'
+      /= link_to 'Sign in with Facebook', '/auth/facebook'
+
+    = yield
