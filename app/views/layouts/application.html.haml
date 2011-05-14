@@ -5,13 +5,13 @@
     = stylesheet_link_tag 'default'
     = csrf_meta_tag
   %body
-    - if current_user
-      Welcome,
-      = current_user.name
-      = image_tag current_user.avatar
-      = link_to 'Log out', logout_path
-    - else
-      = link_to 'Sign in with Twitter', '/auth/twitter'
-      /= link_to 'Sign in with Facebook', '/auth/facebook'
+    %header
+      - if current_user
+        = link_to 'Log out', logout_path
+        = image_tag current_user.avatar
+
+      - else
+        = link_to 'Sign in with Twitter', '/auth/twitter'
+        /= link_to 'Sign in with Facebook', '/auth/facebook'
 
     = yield
