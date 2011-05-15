@@ -19,6 +19,7 @@ footer, header, nav, section, audio, video {
 a img {
   border: 0; }
 
+/* Variables and mixins */
 /*  Typography presets
   ------------------*/
 .gigantic {
@@ -74,12 +75,28 @@ body {
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 body {
-  background: #e8e8e8;
-  color: #3c3c3c; }
+  background: #fae7e3; }
 
 header {
-  background: #000;
-  height: 48px;
-  text-align: right; }
+  background: #de3a5b;
+  height: 48px; }
   header a {
     color: #fff; }
+  header a:hover {
+    color: #00FFFF; }
+  header li {
+    list-style: none;
+    float: right;
+    display: inline;
+    margin: 22px 6px 0px 0px; }
+  header .avatar {
+    display: inline;
+    float: right; }
+
+.container {
+  min-height: 600px;
+  border-top: 1px solid #fff; }
+
+footer {
+  background: #0a1a36;
+  height: 144px; }

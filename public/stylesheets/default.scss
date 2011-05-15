@@ -21,6 +21,11 @@ footer, header, nav, section, audio, video {
 
 a img {border: 0;}
 
+/* Variables and mixins */
+$pink: #DE3A5B;
+$flesh: #FAE7E3;
+$ocean: #0A1A36; 
+$orange: #E35F44;
 /*  Typography presets
   ------------------*/
 
@@ -77,14 +82,35 @@ cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
-  background: rgb(232,232,232);
-  color: rgb(60,60,60);
+  background: $flesh;
 }
 header {
-  background: #000;
+  background: $pink;
   height: 48px;
-  text-align: right;
   a {
     color: #fff;
   }
+  a:hover {
+    color: #00FFFF;
+  }
+  ul {
+  }
+  li {
+    list-style: none;
+    float: right;
+    display: inline;
+    margin: 22px 6px 0px 0px;
+  }
+  .avatar {
+    display: inline;
+    float: right;
+  }
+}
+.container {
+  min-height: 600px;
+  border-top: 1px solid #fff;
+}
+footer {
+  background: $ocean;
+  height: 144px;
 }

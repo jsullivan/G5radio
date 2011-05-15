@@ -1,5 +1,11 @@
 require 'spec_helper'
 
 describe User do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context "#avatar_url" do
+    it "returns an avatar url" do
+      user = User.new 
+      user.avatar_url should
+
+    end
+  end
 end
