@@ -7,10 +7,17 @@ gem 'rails', '3.0.3'
 
 gem 'mysql2', '~> 0.2.7'
 gem 'unicorn'
-gem 'rspec-rails'
 gem 'grooveshark'
 gem 'omniauth'
 gem 'haml'
+gem 'capybara'
+gem 'database_cleaner'
+gem 'cucumber-rails'
+gem 'cucumber'
+gem 'rspec-rails'
+gem 'spork'
+gem 'launchy'    # So you can do Then show me the page
+
 # Deploy with Capistrano
 # gem 'capistrano'
 
