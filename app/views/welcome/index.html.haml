@@ -1,4 +1,3 @@
 .container
-  - if current_user
-    = link_to "Join a channel"
-    = link_to "Create a new channel"
+  - if current_user.channels.blank?
+    =render :partial => 'new_user'

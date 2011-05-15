@@ -22,10 +22,9 @@ footer, header, nav, section, audio, video {
 a img {border: 0;}
 
 /* Variables and mixins */
-$pink: #DE3A5B;
-$flesh: #FAE7E3;
-$ocean: #0A1A36; 
-$orange: #E35F44;
+$medium: #1693A5;
+$light: lighten($medium, 50%);
+$dark: darken($medium, 20%);
 /*  Typography presets
   ------------------*/
 
@@ -82,10 +81,10 @@ cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
-  background: $flesh;
+  background: $light;
 }
 header {
-  background: $pink;
+  background: $medium;
   height: 48px;
   a {
     color: #fff;
@@ -108,9 +107,4 @@ header {
 }
 .container {
   min-height: 600px;
-  border-top: 1px solid #fff;
-}
-footer {
-  background: $ocean;
-  height: 144px;
 }

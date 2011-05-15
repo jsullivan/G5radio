@@ -75,10 +75,10 @@ body {
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 body {
-  background: #fae7e3; }
+  background: #c3f0f7; }
 
 header {
-  background: #de3a5b;
+  background: #1693a5;
   height: 48px; }
   header a {
     color: #fff; }
@@ -94,9 +94,4 @@ header {
     float: right; }
 
 .container {
-  min-height: 600px;
-  border-top: 1px solid #fff; }
-
-footer {
-  background: #0a1a36;
-  height: 144px; }
+  min-height: 600px; }
